@@ -1,0 +1,8 @@
+C:\Users\ACT-STUDENT\Desktop\LLEncapsulation\LEncapsulation\obj\Debug\LEncapsulation.csproj.AssemblyReference.cache
+C:\Users\ACT-STUDENT\Desktop\LLEncapsulation\LEncapsulation\obj\Debug\LEncapsulation.csproj.CoreCompileInputs.cache
+C:\Users\ACT-STUDENT\Desktop\LLEncapsulation\LEncapsulation\bin\Debug\LEncapsulation.exe.config
+C:\Users\ACT-STUDENT\Desktop\LLEncapsulation\LEncapsulation\bin\Debug\LEncapsulation.exe
+C:\Users\ACT-STUDENT\Desktop\LLEncapsulation\LEncapsulation\bin\Debug\LEncapsulation.pdb
+C:\Users\ACT-STUDENT\Desktop\LLEncapsulation\LEncapsulation\obj\Debug\LEncapsulation.exe
+C:\Users\ACT-STUDENT\Desktop\LLEncapsulation\LEncapsulation\obj\Debug\LEncapsulation.pdb
+C:\Users\ACT-STUDENT\Desktop\LLEncapsulation\LEncapsulation\obj\Debug\LEncapsulation.exe.config
