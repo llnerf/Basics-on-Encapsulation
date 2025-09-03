@@ -6,35 +6,42 @@ using System.Threading.Tasks;
 
 namespace Inheritance1
 {
-    internal class Student
-    {
-        public string Name { get; set; }    
-        public string Program { get; set; }
+   class Student
+{
+    //fields
+    public string Name { get; set; }
+    public string Program { get; set; }
 
-        public void BasicInfo()
-        {
-            Console.WriteLine("Name: " + Name);
-            Console.WriteLine("Program: " + Program);
-            
-        }
-    }
-    class RegularStudent : Student
+    // Method to display student's basic information (Name + Program)
+    public void BasicInfo()
     {
-        public string Section { get; set; }
+        Console.WriteLine("Name: " + Name);
+        Console.WriteLine("Program: " + Program);
+    }
+}
+// Inherits from Student
+class RegularStudent : Student
+{
+    // Additional property specific to RegularStudent
+    public string Section { get; set; }
 
-        
-        public void SectionEnrolled()
-        {
-            Console.WriteLine("Section: " + Section);
-        }
-    }
-    class IrregularStudent : Student
+    // Method to display section where the regular student is enrolled
+    public void SectionEnrolled()
     {
-        public int Unit { get; set; }
-       
-        public void EnrolledSemUnits()
-        {
-            Console.WriteLine("Unit: " + Unit);
-        }
+        Console.WriteLine("Section: " + Section);
     }
+}
+
+// Inherits from Student
+class IrregularStudent : Student
+{
+    // Additional property specific to IrregularStudent
+    public int UnitsEnrolled { get; set; }
+
+    // Method to display total units enrolled by the irregular student
+    public void EnrolledSemUnits()
+    {
+        Console.WriteLine("Units Enrolled: " + UnitsEnrolled);
+    }
+}
 }
